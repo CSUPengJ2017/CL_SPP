@@ -15,13 +15,13 @@ In the experiment of incremental learning Caltech-101, we used data augmentation
   4. flip: random and horizontal flip
 
 
-## note: 
+## Note: 
 1. To quickly search the best hyper-parameters, we used a greedy search strategy, we firstly adjusted the optimal learning rate and then random search the optimal lambda.
 2. The experiments on split-MNIST and CIFAR10/SVHN/NOT-MNIST/STL-10 were implemented on original datasets with a size of 32*32.
 3. Batch size is 128. All experiments were performed on a single GTX1080ti.
 4. The original model on experiment of Caltech-101 is resnet18.
 
-## training 
+## Training 
 In this repository, we present 3 experiments on SPP, including split-MNIST,CIFAR10/SVHN/NOT-MNIST/STL-10 and Caltech-101. Each folder contains SPP and other approaches of baseline.
 You can get the result of SPP and other 8 methods just run the script with the corresponding name.
 
