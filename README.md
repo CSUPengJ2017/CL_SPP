@@ -5,12 +5,12 @@ In this repository, CL_SPP are implemented by tensorflow 1.3.0，Python 3.5，cu
 
 ## Augmentation 
 In the experiment of incremental learning Caltech-101, we used data augmentation as follow:
-|method         |setting 
-|----------     |------
-|rotation       |90 degree
-|random resize  |[224，224，3]
-|mirror         |random 
-|flip           |random 
+|method         |setting |
+|----------     |------ |
+|rotation       |90 degree |
+|random resize  |[224，224，3] |
+|mirror         |random |
+|flip           |random |
 
 
 
