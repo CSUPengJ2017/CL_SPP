@@ -11,8 +11,8 @@ In the experiment of incremental learning Caltech-101, we used data augmentation
 
   * rotation：90 degree
   * random resize: [224，224，3]
-  3. mirror: random 
-  4. flip: random and horizontal flip
+  * mirror: random 
+  * flip: random and horizontal flip
 
 
 ## Note: 
