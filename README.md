@@ -9,8 +9,8 @@ In this repository, CL_SPP are implemented by tensorflow 1.3.0，Python 3.5，cu
 ## Augmentation 
 In the experiment of incremental learning Caltech-101, we used data augmentation as follow:
 
-  1. rotation：90 degree
-  2. random resize: [224，224，3]
+  * rotation：90 degree
+  * random resize: [224，224，3]
   3. mirror: random 
   4. flip: random and horizontal flip
 
@@ -23,7 +23,7 @@ In the experiment of incremental learning Caltech-101, we used data augmentation
 
 ## Training 
 In this repository, we present 3 experiments on SPP, including split-MNIST,CIFAR10/SVHN/NOT-MNIST/STL-10 and Caltech-101. Each folder contains SPP and other approaches of baseline.
-You can get the result of SPP and other 8 methods just run the script with the corresponding name.
+You can get the result of SPP and other 8 methods just run the script with the corresponding name,i.e,/exp_split_MNIST/SPP/ours.py
 
 
 ## Citation 
